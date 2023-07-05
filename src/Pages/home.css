@@ -1,0 +1,41 @@
+.poster-image-container {
+  position: relative;
+  display: inline-block;
+}
+.poster-image {
+  height: 550px;
+  overflow: hidden;
+}
+.poster-image-actual {
+  width: 100%;
+}
+.poster-image-overlay {
+  position: absolute;
+  padding: 5rem;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  align-items: flex-start;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 1));
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.poster-image-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+}
+.poster-image-description {
+  width: 40%;
+  margin-top: 1rem;
+  text-align: left;
+}
+.poster-image-rating {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,52 @@
+.header {
+  margin: 0 2.5rem;
+  padding: 0.5rem 0;
+}
+.header-icon {
+  width: 80px;
+  cursor: pointer;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+a > span {
+  font-size: 1.2rem;
+  margin: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* .header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header-icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+} */
